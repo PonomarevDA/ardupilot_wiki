@@ -9,9 +9,9 @@ to accomplish the setup suitable for their specific needs.
 
 .. tip::
 
-   The :ref:`DroneCAN setup page is here <common-uavcan-setup-advanced>`. But the parameters below must be configured correctly in order to use the DroneCAN driver.
+   The :ref:`DroneCAN setup page is here <common-uavcan-setup-advanced>`, :ref:`Cyphal setup page is here <common-cyphal-setup-advanced>`. But the parameters below must be configured correctly in order to use the DroneCAN/Cyphal driver.
 
-.. note:: DroneCAN was formerly known as UAVCAN.
+.. note:: DroneCAN was formerly known as UAVCAN v0, Cyphal was formerly known as UAVCAN v1.
 
 Overview
 ========
@@ -85,8 +85,12 @@ loaded with specified protocol.
 Configuration of CAN driver
 ---------------------------
 
-The driver should be set to use some protocol. Currently there is support for DroneCAN devices,
-which is numbered 1, and numerous CAN ESCs.
+The driver should be set to use some protocol. Currently there are supports for:
+
+- DroneCAN devices, which is numbered 1,
+- Cyphal devices, which is numbered 13,
+- and numerous CAN ESCs.
+
 The parameter ``CAN_Px_PROTOCOL``, where x is the number of driver, should be filled
 with the number of protocol for this driver.
 
@@ -98,5 +102,5 @@ After the change to protocol the autopilot has to be rebooted for the changes to
 CAN ESCs
 ========
 
-Several types of CAN based ESCs are supported: DroneCAN, KDECAN, ToshibaCAN, UAVCAN, and PiccoloCAN.
+Several types of CAN based ESCs are supported: DroneCAN, KDECAN, ToshibaCAN, and PiccoloCAN, Cyphal.
 For these ESCs, each type use several parameters for configuration. See the ESC's individual description page :ref:`here<common-escs-and-motors>`.

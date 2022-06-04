@@ -42,6 +42,7 @@ tuning options for the vehicle.
     Crash Detection <crash-detect>
 [/site]
     DroneCAN Setup <common-uavcan-setup-advanced>
+    Cyphal Setup <common-cyphal-setup-advanced>
     EKF (Extended Kalman Filter) <common-apm-navigation-extended-kalman-filter-overview>
     EKF Affinity & Lane Switching <common-ek3-affinity-lane-switching>
     EKF Sources and Selection <common-ekf-sources>

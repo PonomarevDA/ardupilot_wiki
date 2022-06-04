@@ -19,6 +19,7 @@ ArduPilot supports a wide variety of ESCs and motors.  The pages below provide s
 [/site]
     Currawong Velocity ESCs <common-velocity-can-escs>
     DroneCAN ESCs <common-uavcan-escs>
+    Cyphal ESCs <common-cyphal-escs>
     FETtec OneWire ESCs <common-fettec-onewire>
     PWM, OneShot and OneShot125 ESCs <common-brushless-escs>
     DShot ESCs <common-dshot-escs>
